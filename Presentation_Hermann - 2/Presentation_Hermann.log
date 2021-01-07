@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.29)  6 JAN 2021 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.29)  8 JAN 2021 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,7 +1131,7 @@ Package pdftex.def Info: images/logouniv.png  used on input line 142.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 154.
+Package pdftex.def Info: images/logouniv.png  used on input line 161.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
@@ -1149,49 +1149,43 @@ Package pdftex.def Info: images/logouniv.png  used on input line 154.
 
 \openout5 = `Presentation_Hermann.mw'.
 
-<images/bonhomme_question.JPG, id=120, 346.29375pt x 584.1825pt>
-File: images/bonhomme_question.JPG Graphic file (type jpg)
-<use images/bonhomme_question.JPG>
-Package pdftex.def Info: images/bonhomme_question.JPG  used on input line 168.
-(pdftex.def)             Requested size: 56.9035pt x 85.35054pt.
-File: images/logouniv.png Graphic file (type png)
-<use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 168.
-(pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Hermann.mw'.
+<images/jamming.PNG, id=120, 448.67625pt x 251.94125pt>
+File: images/jamming.PNG Graphic file (type png)
+<use images/jamming.PNG>
+Package pdftex.def Info: images/jamming.PNG  used on input line 176.
+(pdftex.def)             Requested size: 284.53656pt x 113.81076pt.
 
- [4
+Overfull \hbox (0.74644pt too wide) in paragraph at lines 176--176
+ [] 
+ []
 
- <./images/bonhomme_question.jpg>]
-(./Presentation_Hermann.mw)
-\openout5 = `Presentation_Hermann.mw'.
 
-\openout5 = `Presentation_Hermann.mw'.
-
-\openout5 = `Presentation_Hermann.mw'.
+Overfull \vbox (31.5585pt too high) detected at line 176
+ []
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 177.
+Package pdftex.def Info: images/logouniv.png  used on input line 176.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
- [5
+[4
 
-] (./Presentation_Hermann.mw)
+ <./images/jamming.png>] (./Presentation_Hermann.mw)
 \openout5 = `Presentation_Hermann.mw'.
 
-\openout5 = `Presentation_Hermann.mw'.
+<images/sinkhole.PNG, id=132, 449.68pt x 217.81375pt>
+File: images/sinkhole.PNG Graphic file (type png)
+<use images/sinkhole.PNG>
+Package pdftex.def Info: images/sinkhole.PNG  used on input line 191.
+(pdftex.def)             Requested size: 284.54184pt x 113.80885pt.
 
-\openout5 = `Presentation_Hermann.mw'.
+Overfull \hbox (0.75172pt too wide) in paragraph at lines 191--191
+ [] 
+ []
 
-<images/bonhomme_idea.JPG, id=143, 186.6975pt x 381.425pt>
-File: images/bonhomme_idea.JPG Graphic file (type jpg)
-<use images/bonhomme_idea.JPG>
-Package pdftex.def Info: images/bonhomme_idea.JPG  used on input line 191.
-(pdftex.def)             Requested size: 56.90419pt x 85.35713pt.
 
-Overfull \vbox (73.87878pt too high) detected at line 191
+Overfull \vbox (46.33264pt too high) detected at line 191
  []
 
 File: images/logouniv.png Graphic file (type png)
@@ -1200,48 +1194,25 @@ Package pdftex.def Info: images/logouniv.png  used on input line 191.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
-[6
+[5
 
- <./images/bonhomme_idea.jpg>] (./Presentation_Hermann.mw)
+ <./images/sinkhole.png>] (./Presentation_Hermann.mw)
 \openout5 = `Presentation_Hermann.mw'.
 
-\openout5 = `Presentation_Hermann.mw'.
-
-\openout5 = `Presentation_Hermann.mw'.
-
-
-Underfull \hbox (badness 3088) in paragraph at lines 205--205
-[]\T1/phv/m/n/12 normal nodes are di-vi-ded into mu-tually dis-joint
- []
-
-File: images/bonhomme_idea.JPG Graphic file (type jpg)
-<use images/bonhomme_idea.JPG>
-Package pdftex.def Info: images/bonhomme_idea.JPG  used on input line 205.
-(pdftex.def)             Requested size: 56.90419pt x 85.35713pt.
-
-Overfull \vbox (46.85281pt too high) detected at line 205
- []
-
+<images/bonhomme_question.JPG, id=146, 346.29375pt x 584.1825pt>
+File: images/bonhomme_question.JPG Graphic file (type jpg)
+<use images/bonhomme_question.JPG>
+Package pdftex.def Info: images/bonhomme_question.JPG  used on input line 205.
+(pdftex.def)             Requested size: 56.9035pt x 85.35054pt.
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 205.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
-[7
+ [6
 
-] (./Presentation_Hermann.mw)
-\openout5 = `Presentation_Hermann.mw'.
-
-File: images/logouniv.png Graphic file (type png)
-<use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 222.
-(pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Hermann.mw'.
-
- [8
-
-] (./Presentation_Hermann.mw)
+ <./images/bonhomme_question.jpg>] (./Presentation_Hermann.mw)
 \openout5 = `Presentation_Hermann.mw'.
 
 \openout5 = `Presentation_Hermann.mw'.
@@ -1250,14 +1221,29 @@ Package pdftex.def Info: images/logouniv.png  used on input line 222.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 236.
+Package pdftex.def Info: images/logouniv.png  used on input line 214.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
- [9
+ [7
 
-]
-(./Presentation_Hermann.mw)
+] (./Presentation_Hermann.mw)
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+File: images/logouniv.png Graphic file (type png)
+<use images/logouniv.png>
+Package pdftex.def Info: images/logouniv.png  used on input line 226.
+(pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
+\openout5 = `Presentation_Hermann.mw'.
+
+
+[8
+
+] (./Presentation_Hermann.mw)
 \openout5 = `Presentation_Hermann.mw'.
 
 \openout5 = `Presentation_Hermann.mw'.
@@ -1265,25 +1251,52 @@ Package pdftex.def Info: images/logouniv.png  used on input line 236.
 \openout5 = `Presentation_Hermann.mw'.
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 258.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 241.
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 258.
+Package pdftex.def Info: images/logouniv.png  used on input line 241.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
- [10
+ [9
 
 ] (./Presentation_Hermann.mw)
 \openout5 = `Presentation_Hermann.mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 268.
+Package pdftex.def Info: images/logouniv.png  used on input line 253.
+(pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
+\openout5 = `Presentation_Hermann.mw'.
+
+ [10
+
+]
+(./Presentation_Hermann.mw)
+\openout5 = `Presentation_Hermann.mw'.
+
+File: images/logouniv.png Graphic file (type png)
+<use images/logouniv.png>
+Package pdftex.def Info: images/logouniv.png  used on input line 269.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
  [11
+
+] (./Presentation_Hermann.mw)
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+File: images/logouniv.png Graphic file (type png)
+<use images/logouniv.png>
+Package pdftex.def Info: images/logouniv.png  used on input line 289.
+(pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
+\openout5 = `Presentation_Hermann.mw'.
+
+ [12
 
 ]
 (./Presentation_Hermann.mw)
@@ -1295,41 +1308,68 @@ Package pdftex.def Info: images/logouniv.png  used on input line 268.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 278.
+Package pdftex.def Info: images/logouniv.png  used on input line 313.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
- [12
+ [13
+
+] (./Presentation_Hermann.mw)
+\openout5 = `Presentation_Hermann.mw'.
+
+File: images/logouniv.png Graphic file (type png)
+<use images/logouniv.png>
+Package pdftex.def Info: images/logouniv.png  used on input line 323.
+(pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
+\openout5 = `Presentation_Hermann.mw'.
+
+ [14
+
+]
+(./Presentation_Hermann.mw)
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+File: images/logouniv.png Graphic file (type png)
+<use images/logouniv.png>
+Package pdftex.def Info: images/logouniv.png  used on input line 333.
+(pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
+\openout5 = `Presentation_Hermann.mw'.
+
+ [15
 
 ] (./Presentation_Hermann.mw)
 \openout5 = `Presentation_Hermann.mw'.
 
 File: images/enteteUds.PNG Graphic file (type png)
 <use images/enteteUds.PNG>
-Package pdftex.def Info: images/enteteUds.PNG  used on input line 326.
+Package pdftex.def Info: images/enteteUds.PNG  used on input line 381.
 (pdftex.def)             Requested size: 312.97864pt x 34.14368pt.
 
-Overfull \hbox (5.68877pt too wide) in paragraph at lines 326--326
+Overfull \hbox (5.68877pt too wide) in paragraph at lines 381--381
  [] 
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 326--326
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 381--381
 [][][]  
  []
 
 
-Overfull \hbox (10.13586pt too wide) in paragraph at lines 326--326
+Overfull \hbox (10.13586pt too wide) in paragraph at lines 381--381
  [][][] 
  []
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
-Package pdftex.def Info: images/logouniv.png  used on input line 326.
+Package pdftex.def Info: images/logouniv.png  used on input line 381.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
 \openout5 = `Presentation_Hermann.mw'.
 
-[13
+[16
 
 ] (./Presentation_Hermann.mw)
 \openout5 = `Presentation_Hermann.mw'.
@@ -1343,8 +1383,8 @@ Package pdftex.def Info: images/logouniv.png  used on input line 326.
 \tf@snm=\write22
 \openout5 = `Presentation_Hermann.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
  (./Presentation_Hermann.aux
 \openout5 = `Presentation_Hermann.mw'.
 
@@ -1578,13 +1618,37 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
 
 \openout5 = `Presentation_Hermann.mw'.
 
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
+\openout5 = `Presentation_Hermann.mw'.
+
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
 \openout5 = `Presentation_Hermann.out'.
 
 Package rerunfilecheck Info: File `Presentation_Hermann.out' has not changed.
-(rerunfilecheck)             Checksum: 8436AA6150369E2CBA2D6CB2D5C27BF4;534.
+(rerunfilecheck)             Checksum: 4860134679DAF363116872DCF9811154;541.
 \openout5 = `Presentation_Hermann.nav'.
 
 \openout5 = `Presentation_Hermann.toc'.
@@ -1593,11 +1657,11 @@ Package rerunfilecheck Info: File `Presentation_Hermann.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23912 strings out of 481239
- 469464 string characters out of 5920377
- 717704 words of memory out of 5000000
- 38496 multiletter control sequences out of 15000+600000
- 610911 words of font info for 99 fonts, out of 8000000 for 9000
+ 23936 strings out of 481239
+ 469812 string characters out of 5920377
+ 717703 words of memory out of 5000000
+ 38507 multiletter control sequences out of 15000+600000
+ 611271 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,68p,787b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1607,10 +1671,10 @@ fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Presentation_Hermann.pdf (13 pages, 225153 bytes).
+Output written on Presentation_Hermann.pdf (16 pages, 234924 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

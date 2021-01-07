@@ -149,45 +149,8 @@
 	
 	\vspace{-0.25cm}
 	\begin{block}
-		\scriptsize Dans les réseaux de capteurs les attaques malicieuses sont un problème réel, plusieurs protocoles proposés ne résistent pas aux attaques malicieuses dans des environnements hostiles.
-		
-	 En effet,Un noeud malicieux peut opérer sur deux niveaux:
-							\begin{itemize}
-								\item Les données échangées entre les noeuds
-								\item La topologie du réseau créée par le protocole
-							\end{itemize}
-
+		\scriptsize Dans les réseaux de capteur les attaques malicieux sont un problème réel Et plusieurs protocoles proposés ne résistent pas au attaque malicieuse dans des environnement hostile
 	\end{block}
-	\end{frame}
-	
-	\begin{frame}{Contexte}
-		\transwipe
-		\vspace{-0.25cm}
-		\begin{block}{Exemple Déattaque Active:}
-			\begin{itemize}
-				\item Attaque de "jamming" \\ Vu la sensibilité du média sans fil au bruit, un noeud peut provoquer un déni de service en émettant des signaux é une certaine fréquence. Cette attaque peut être très dangereuse car elle peut être menée par une personne non authentifiée et étrangère au réseau.
-				\begin{figure}
-		\begin{center}
-		\includegraphics[width=10cm,height=4cm]{images/jamming.PNG}
-		\end{center}
-	\end{figure}
-			\end{itemize}
-		\end{block}
-	\end{frame}
-	
-	\begin{frame}{Contexte}
-		\transwipe
-		\vspace{-0.25cm}
-		\begin{block}{Exemple D'attaque Active:}
-			\begin{itemize}
-				\item ASink hole \\ Dans une attaque sinkhole, le noeud essaye d'attirer vers lui le plus de chemins possibles permettant le contrôle sur la plupart des données circulant dans le réseau. Pour ce faire, l'attaquant doit apparaître aux autres comme étant très attractif, en présentant des routes optimales.
-				\begin{figure}
-		\begin{center}
-		\includegraphics[width=10cm,height=4cm]{images/sinkhole.PNG}
-		\end{center}
-	\end{figure}
-			\end{itemize}
-		\end{block}
 	\end{frame}
 			
 
@@ -196,7 +159,7 @@
 			\begin{frame}{Problématique générale}
 	\transglitter
 				\begin{alertblock}{ Problématique générale}
-					\large Détection des noeuds malicieux dans les réseaux de capteurs.
+					\large détection des noeuds  malicieux dans les réseaux de capteur.
 				\end{alertblock}
 				\begin{figure}%
 				\centering
@@ -213,99 +176,81 @@
 				\end{center}
 			\end{frame}
 			\subsection{Propriétés}
-			\begin{frame}{Propriétés}
+			\begin{frame}{propriétés}
 				\transwipe
 				\vspace{-0.21cm}
-					\begin{block}{\scriptsize Le protocole de formation de cluster distribué sécurisé possède les propriétés suivantes même s'il y a des attaquants externes et internes}
+					\begin{block}{\scriptsize Our secure distributed cluster formation protocol has the following properties even if there are external and insider attackers}
 						\begin{itemize}
-							\item[\ding{43}]Le protocole est entièrement distribué. Chaque noeud calcule sa clique uniquement en utilisant les informations de ses voisins;
-							\item[\ding{43}] La fin du protocole est garantie. Les noeuds participants qui ne respectent pas les spécifications du protocole (p. ex., envoyer des messages contradictoires) seront identifiés et retirés de toutes les cliques;
+							\item[\ding{43}]The protocol is fully distributed. Each node computes its clique only using the information from its 1-hop neighbors;
+							\item[\ding{43}] The protocol is guaranteed to terminate. Participating nodes that do not follow the protocol specification (e.g., send conflicting messages) will be identified and removed from all cliques; 
+						\item[\ding{43}] After the protocol terminates, all normal nodes are divided into mutually disjoint cliques. All normal nodes are guaranteed to have consistent views on their clique memberships even in hostile environment; 
 						\end{itemize}
 					\end{block}
-					
-			\end{frame}
-			\begin{frame}{Propriétés}
-				\transwipe
-				\vspace{-0.21cm}
-					\begin{block}{\scriptsize Le protocole de formation de cluster distribué sécurisé possède les propriétés suivantes même s'il y a des attaquants externes et internes}
-						\begin{itemize}
-						\item[\ding{43}] Une fois le protocole terminé,
-						\begin{itemize}
-										\item Tous les noeuds normaux sont divisés en cliques disjointes.
-										\item  Tous les noeuds normaux sont garantis d'avoir des vues cohérentes sur leurs adhésions é la clique, même dans un environnement hostile;
-
-									\end{itemize}
-						\end{itemize}
-					\end{block}
-					
+					\centering
+						\includegraphics[width=2cm, height=3cm]{images/bonhomme_idea.JPG}
 			\end{frame}
 			\begin{frame}{propriétés}
 				\transwipe
 					\vspace{-0.21cm}
-						\begin{block}{\scriptsize Le protocole de formation de cluster distribué sécurisé possède les propriétés suivantes même s'il y a des attaquants externes et internes}
+						\begin{block}{\scriptsize Our secure distributed cluster formation protocol has the following properties even if there are external and insider attackers}
 							\begin{itemize}
-								\item[\ding{43}]les attaquants internes qui ne suivent pas la sémantique du protocole peuvent étre identifiés et retirés du réseau ;
-								\item[\ding{43}] les attaquants externes peuvent être empêchés de participer au processus de formation du cluster;
-								
-								\item[\ding{43}]  les coûts de communication sont modéré
+								\item[\ding{43}]normal nodes are divided into mutually disjoint cliques;
+								\item[\ding{43}] all the normal nodes in each clique agree on the same clique memberships;
+								\item[\ding{43}]while external attackers can be prevented from participating in the cluster formation process, inside attackers that do not follow the protocol semantics can be identified and removed from the network;
+								\item[\ding{43}]the communication overhead is moderate;
 							\end{itemize}
 						\end{block}
+						\centering
+						\includegraphics[width=2cm, height=3cm]{images/bonhomme_idea.JPG}
 			\end{frame}
-			\subsection{Hypothèses }
-				\begin{frame}{Hypothèses }
+			\subsection{Assertion}
+				\begin{frame}{Assertion}
 					\transwipe
 					\vspace{-0.21cm}
 					\begin{block}{}
 							\begin{itemize}
-								\item[\ding{43}]Chaque 	\tiny{noeud} connaît ses voisins 1-hop
-								\item[\ding{43}]Les noeuds de capteurs peuvent effectuer des opérations de signature numérique é clé publique.
+								\item[\ding{43}] We assume each node knows its 1-hop neighbors
+								\item[\ding{43}] We assume the sensor nodes can perform public key based digital signature operations.
 
-								\item[\ding{43}]Les horloges des noeuds normaux sont synchronisées de manière lâche, comme l'exige uTESLA.
-								\item[\ding{43}]Les clés publiques utilisées par les noeuds capteurs sont correctement authentifiées
+								\item[\ding{43}] We assume the clocks of the normal nodes are loosely synchronized, as required by TESLA.
+
+								\item[\ding{43}]We also assume the public keys used by the sensor nodes are properly authenticated
  
 							\end{itemize}
 					
 					\end{block}
 				\end{frame}
 			\subsection{Protocol Specification}
-				\begin{frame}{Spécification du protocole}
+				\begin{frame}{Protocol Specification}
 					\transwipe
 					\vspace{-0.21cm}
-					\begin{block}{}
+					\begin{block}{The protocol is summarized below:}
 							\begin{itemize}
-								\item[\ding{43}] étape 1: Chaque noeud échange ses listes de voisins avec ses voisins et calcule sa clique maximale locale.
-								\item[\ding{43}]étape 2: Chaque noeud:
-									\begin{itemize}
-										\item échange sa clique maximale locale avec ses voisins,
-										\item et met é jour sa clique maximale en fonction  cliques maximales locales de ses noeuds voisins.
-									\end{itemize}
-								\item[\ding{43}] étape 2: Chaque noeud: 
-										\begin{itemize}
-										\item échange la clique mise é jour avec ses voisins
-										\item et calcule sa clique finale
-									\end{itemize}
+								\item[\ding{43}] Step 1: Each node exchanges its neighbor lists with its neighbors, and computes its local maximum clique.
+								\item[\ding{43}] Step 2: Each node exchanges its local maximum clique with its neighbors, and updates its maximum clique according to its neighbor nodes? local maximum cliques.
+
+								\item[\ding{43}] Step 3: Each node exchanges the updated clique with its neighbors, and derives its final clique.
+
 							\end{itemize}
 					\end{block}
 				\end{frame}
-				\begin{frame}{Spécification du protocole}
+				\begin{frame}{Protocol Specification}
 					\transwipe
 					\vspace{-0.21cm}
-					\begin{block}{}
+					\begin{block}{The protocol is summarized below:}
 							\begin{itemize}
-								\item[\ding{43}]étape 4: Chaque noeud échange le clic final avec ses voisins.
+								\item[\ding{43}]Step 4: Each node exchanges the final clique with its neighbors.
 								
 									\begin{itemize}
-										\item Si aucune incohérence de clique n'est détectée, il se termine avec succès.
-										\item
-Sinon, il entre é l'étape 5.
+										\item If no clique inconsistency is detected, it terminates successfully.
+										\item Otherwise, it enters Step 5.
 									\end{itemize}
 								
 								 
-								\item[\ding{43}]étape 5: Chaque noeud effectue un contrôle de conformité.
+								\item[\ding{43}]Step 5: Each node performs conformity checking. 
 									\begin{itemize}
-										\item 
-S'il identifie les noeuds (voisins) malveillants, il les supprime du réseau et redémarre le protocole é partir de l'étape 1.
-										\item Sinon, il applique l'accord de clique et prend fin.
+										\item If it identifies malicious (neighbor) nodes, it removes them from the network, and restarts the protocol from Step 1.
+										\item Otherwise, it enforces the clique agreement and terminates.
 									\end{itemize}									 
 
 							\end{itemize}
@@ -317,7 +262,7 @@ S'il identifie les noeuds (voisins) malveillants, il les supprime du réseau et r
 						\vspace{-0.21cm}
 						\begin{block}{}
 							\begin{itemize}
-								\item[\ding{43}]Actuellement, le protocole est adapté aux réseaux de capteurs statiques, dans lesquels les noeuds ne se déplacent pas fréquemment
+								\item[\ding{43}] Currently, our protocol is suitable for static sensor networks, in which nodes do not move frequently
 							\end{itemize}
 						\end{block}
 					\end{frame}

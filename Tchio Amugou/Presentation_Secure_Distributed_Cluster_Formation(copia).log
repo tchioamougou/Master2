@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.29)  8 JAN 2021 00:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.29)  8 JAN 2021 00:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Presentation_Secure_Distributed_Cluster_Formation.tex
-(./Presentation_Secure_Distributed_Cluster_Formation.tex
+**Presentation_Secure_Distributed_Cluster_Formation(copia).tex
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -886,8 +886,9 @@ File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemestructurebold.st
 y)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemestructureitalics
-erif.sty) (./Presentation_Secure_Distributed_Cluster_Formation.aux)
-\openout1 = `Presentation_Secure_Distributed_Cluster_Formation.aux'.
+erif.sty)
+No file Presentation_Secure_Distributed_Cluster_Formation(copia).aux.
+\openout1 = `Presentation_Secure_Distributed_Cluster_Formation(copia).aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
@@ -905,7 +906,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
 LaTeX Font Info:    ... okay on input line 93.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -980,11 +980,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 93.
 LaTeX Info: Redefining \pageref on input line 93.
 LaTeX Info: Redefining \nameref on input line 93.
-
-(./Presentation_Secure_Distributed_Cluster_Formation.out)
-(./Presentation_Secure_Distributed_Cluster_Formation.out)
 \@outlinefile=\write19
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.out'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 93.
@@ -1056,14 +1053,14 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \degres on input line 93.
 LaTeX Info: Redefining \dots on input line 93.
 LaTeX Info: Redefining \up on input line 93.
- (./Presentation_Secure_Distributed_Cluster_Formation.nav)
+
+No file Presentation_Secure_Distributed_Cluster_Formation(copia).nav.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <6> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 93.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 93
 .
-
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -1081,7 +1078,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 93.
-<images/enteteUds.PNG, id=54, 377.15906pt x 89.58469pt>
+<images/enteteUds.PNG, id=20, 377.15906pt x 89.58469pt>
 File: images/enteteUds.PNG Graphic file (type png)
 <use images/enteteUds.PNG>
 Package pdftex.def Info: images/enteteUds.PNG  used on input line 136.
@@ -1112,66 +1109,65 @@ Overfull \hbox (10.13586pt too wide) in paragraph at lines 136--136
  [][][] 
  []
 
-<images/logouniv.png, id=56, 85.82062pt x 97.86563pt>
+<images/logouniv.png, id=22, 85.82062pt x 97.86563pt>
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 136.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1
 
- <./images/logouniv.png> <./images/enteteUds.PNG>]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logouniv.png> <./
+images/enteteUds.PNG>]
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 
-(./Presentation_Secure_Distributed_Cluster_Formation.toc)
+No file Presentation_Secure_Distributed_Cluster_Formation(copia).toc.
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 142.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
- [2
+[2
 
-]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+] (./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 161.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-61.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [3
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+76.
 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 Underfull \hbox (badness 1661) in paragraph at lines 176--176
 \T1/phv/m/n/12 Vu la sen-si-bi-lit√\TS1/phv/m/n/12 © \T1/phv/m/n/12 du m√\TS1/p
 hv/m/n/12 ©\T1/phv/m/n/12 dia sans fil au bruit,
  []
 
-<images/jamming.PNG, id=120, 448.67625pt x 251.94125pt>
+<images/jamming.PNG, id=60, 448.67625pt x 251.94125pt>
 File: images/jamming.PNG Graphic file (type png)
 <use images/jamming.PNG>
 Package pdftex.def Info: images/jamming.PNG  used on input line 176.
@@ -1182,22 +1178,22 @@ Overfull \hbox (0.74644pt too wide) in paragraph at lines 176--176
  []
 
 
-Overfull \vbox (47.84657pt too high) detected at line 176
+Overfull \vbox (15.76085pt too high) detected at line 176
  []
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 176.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 [4
 
  <./images/jamming.png>]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-<images/sinkhole.PNG, id=132, 449.68pt x 217.81375pt>
+<images/sinkhole.PNG, id=69, 449.68pt x 217.81375pt>
 File: images/sinkhole.PNG Graphic file (type png)
 <use images/sinkhole.PNG>
 Package pdftex.def Info: images/sinkhole.PNG  used on input line 191.
@@ -1208,20 +1204,20 @@ Overfull \hbox (0.75172pt too wide) in paragraph at lines 191--191
  []
 
 
-Overfull \vbox (46.33264pt too high) detected at line 191
+Overfull \vbox (14.24692pt too high) detected at line 191
  []
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 191.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 [5
 
  <./images/sinkhole.png>]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 
 Underfull \hbox (badness 2452) in paragraph at lines 205--205
@@ -1229,7 +1225,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 205--205
 li-cieux dans les
  []
 
-<images/bonhomme_question.JPG, id=146, 346.29375pt x 584.1825pt>
+<images/bonhomme_question.JPG, id=79, 346.29375pt x 584.1825pt>
 File: images/bonhomme_question.JPG Graphic file (type jpg)
 <use images/bonhomme_question.JPG>
 Package pdftex.def Info: images/bonhomme_question.JPG  used on input line 205.
@@ -1238,49 +1234,49 @@ File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 205.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 [6
 
  <./images/bonhomme_question.jpg>]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 214.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [7
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 226.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [8
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 241.
@@ -1288,13 +1284,13 @@ File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 241.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [9
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 
 Underfull \hbox (badness 4699) in paragraph at lines 253--253
@@ -1305,84 +1301,84 @@ File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 253.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 [10
 
-] (./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+] (./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 269.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [11
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 289.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [12
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 313.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [13
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 323.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [14
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 333.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
  [15
 
 ]
-(./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 File: images/enteteUds.PNG Graphic file (type png)
 <use images/enteteUds.PNG>
@@ -1407,313 +1403,313 @@ File: images/logouniv.png Graphic file (type png)
 <use images/logouniv.png>
 Package pdftex.def Info: images/logouniv.png  used on input line 381.
 (pdftex.def)             Requested size: 12.47444pt x 14.22636pt.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 [16
 
-] (./Presentation_Secure_Distributed_Cluster_Formation.mw)
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+] (./Presentation_Secure_Distributed_Cluster_Formation(copia).mw)
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 \tf@nav=\write20
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.nav'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).nav'.
 
 \tf@toc=\write21
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.toc'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).toc'.
 
 \tf@snm=\write22
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.snm'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
 
-(./Presentation_Secure_Distributed_Cluster_Formation.aux
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+(./Presentation_Secure_Distributed_Cluster_Formation(copia).aux
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.mw'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).mw'.
 
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.out'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).out'.
 
 
 
 Package rerunfilecheck Warning: File `Presentation_Secure_Distributed_Cluster_F
-ormation.out' has changed.
+ormation(copia).out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Presentation_Secure_Distributed_Clu
-ster_Formation.out':
-(rerunfilecheck)             Before: 6606B9EA67749DBE06C328DBE8257323;565
+ster_Formation(copia).out':
+(rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D2D27897D20D961B51A9AC5599DB3E07;565.
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.nav'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).nav'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.toc'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).toc'.
 
-\openout5 = `Presentation_Secure_Distributed_Cluster_Formation.snm'.
+\openout5 = `Presentation_Secure_Distributed_Cluster_Formation(copia).snm'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24009 strings out of 481239
- 472436 string characters out of 5920377
- 718166 words of memory out of 5000000
- 38570 multiletter control sequences out of 15000+600000
- 614497 words of font info for 110 fonts, out of 8000000 for 9000
+ 23849 strings out of 481239
+ 469169 string characters out of 5920377
+ 716607 words of memory out of 5000000
+ 38422 multiletter control sequences out of 15000+600000
+ 611085 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,19n,68p,816b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,18n,68p,823b,682s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
@@ -1721,11 +1717,11 @@ fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Presentation_Secure_Distributed_Cluster_Formation.pdf (16 pag
-es, 235786 bytes).
+Output written on Presentation_Secure_Distributed_Cluster_Formation(copia).pdf 
+(16 pages, 225463 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  41 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
