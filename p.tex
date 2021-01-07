@@ -1,0 +1,92 @@
+\documentclass[12pt, c]{beamer}
+% Setup appearance:
+
+% Standard packages
+\usepackage[francais]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{pifont}
+\usepackage{tikz}
+\usepackage{morewrites}
+%\usepackage{subfig}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+\DeclareOption{english}{\trans@use@and@alias{english}{English}}
+\ProcessOptions*
+
+\mode<presentation> {
+	\definecolor{bgcol}{RGB}{255,255,255}
+	\definecolor{grencol}{RGB}{0,102,0}
+	\definecolor{rulecol}{RGB}{3,16,67}
+	\definecolor{boxtitre}{RGB}{37,45,137}
+	}
+
+  \usetheme{Warsaw}
+	%\usecolortheme[named=rulecol]{structure}
+	\usefonttheme[onlysmall]{structurebold}
+	\usefonttheme{structureitalicserif}
+	\useinnertheme{rounded}
+	\useoutertheme{split}
+	
+	\beamertemplateshadingbackground{bgcol}{bgcol} % pour jouer sur la couleur % du fond
+	\beamertemplatetransparentcovereddynamic
+	\setbeamertemplate{background canvas}[vertical shading][top=white, bottom=white!60!white]
+	%\setbeamercolor{normal text}{bg=rulecol,fg=black}
+	%\setbeamercolor{title in head}{bg=rulecol!80,fg=bgcol}
+	\setbeamercolor{title in foot}{bg=black,fg=white}
+	\setbeamercolor{author in head}{bg=rulecol,fg=bgcol}
+	\setbeamercolor{author in foot}{bg=black!80,fg=white}
+	\setbeamercolor{section in head}{bg=black,fg=bgcol}
+	\setbeamercolor{section in foot}{bg=rulecol!80,fg= bgcol}
+	\setbeamercolor{subsection in head}{bg=black,fg=bgcol}
+	\setbeamercolor{subsection in foot}{bg=rulecol,fg=bgcol}
+	\setbeamercolor{logo}{bg=rulecol,fg=white}
+	\setbeamercolor{section in head/foot}{bg=black!90,fg=white}
+	\setbeamercolor{subsection in head/foot}{bg=rulecol!90,fg=white}
+	\setbeamercolor{boiterouge}{bg=red!60,fg=black}
+	\setbeamercolor{boiterougeB}{bg=red,fg=black}
+	\setbeamercolor{boiteblanche}{bg=white,fg=black}
+	\setbeamercolor{boiteverte}{bg=green,fg=black}
+	\setbeamercolor{boiteblue}{bg=rulecol,fg=white}
+	
+	\setbeamerfont*{frametitle}{size=\normalsize}
+	
+	
+  \setbeamertemplate{navigation symbols}{}
+	\setbeamertemplate{itemize item}[square]
+	\setbeamertemplate{enumerate item}[ball]
+	\setbeamertemplate{itemize subitem}[triangle]
+	\setbeamertemplate{itemize subsubitem}[circle]
+	\logo{\includegraphics[height=5mm]{images/logouniv.png}}
+	\setbeamertemplate{footline}{
+		\leavevmode%
+		\hbox{\hspace*{-0.06cm}
+		
+		\begin{beamercolorbox}[wd=.265\paperwidth,ht=2.25ex,dp=1ex,left]{author in foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor%~~(\insertshortinstitute)
+		\end{beamercolorbox}%
+		
+		\begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex,center]{title in foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		
+		\begin{beamercolorbox}[wd=.135\paperwidth,ht=2.25ex,dp=1ex,right]{section in foot}%
+			\usebeamerfont{logo}\textcolor[rgb]{1,0.41,0.13}{\insertshortdate{}}\hspace*{0.4em}
+			\insertframenumber{} / \inserttotalframenumber
+		\end{beamercolorbox}}%
+		
+		\vskip0pt%
+	}
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm}
+
+\title[ URIFIA --      Algorithmique CGM pour la résolution du problème STR-EC-LCS]{}
+
+\author[$\;\;$ BOGNING TEPIELE Hermann]{}
+
+\date[Juillet 2019]{Juillet 2019}
+
+%\subject{Mémoire de Master 2}

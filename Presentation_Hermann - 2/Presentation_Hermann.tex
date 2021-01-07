@@ -1,0 +1,327 @@
+\documentclass[12pt, c]{beamer}
+% Setup appearance:
+
+% Standard packages
+\usepackage[francais]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{pifont}
+\usepackage{tikz}
+\usepackage{morewrites}
+%\usepackage{subfig}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+\DeclareOption{english}{\trans@use@and@alias{english}{English}}
+\ProcessOptions*
+
+\mode<presentation> {
+	\definecolor{bgcol}{RGB}{255,255,255}
+	\definecolor{grencol}{RGB}{0,102,0}
+	\definecolor{rulecol}{RGB}{3,16,67}
+	\definecolor{boxtitre}{RGB}{37,45,137}
+	}
+
+  \usetheme{Warsaw}
+	%\usecolortheme[named=rulecol]{structure}
+	\usefonttheme[onlysmall]{structurebold}
+	\usefonttheme{structureitalicserif}
+	\useinnertheme{rounded}
+	\useoutertheme{split}
+	
+	\beamertemplateshadingbackground{bgcol}{bgcol} % pour jouer sur la couleur % du fond
+	\beamertemplatetransparentcovereddynamic
+	\setbeamertemplate{background canvas}[vertical shading][top=white, bottom=white!60!white]
+	%\setbeamercolor{normal text}{bg=rulecol,fg=black}
+	%\setbeamercolor{title in head}{bg=rulecol!80,fg=bgcol}
+	\setbeamercolor{title in foot}{bg=black,fg=white}
+	\setbeamercolor{author in head}{bg=rulecol,fg=bgcol}
+	\setbeamercolor{author in foot}{bg=black!80,fg=white}
+	\setbeamercolor{section in head}{bg=black,fg=bgcol}
+	\setbeamercolor{section in foot}{bg=rulecol!80,fg= bgcol}
+	\setbeamercolor{subsection in head}{bg=black,fg=bgcol}
+	\setbeamercolor{subsection in foot}{bg=rulecol,fg=bgcol}
+	\setbeamercolor{logo}{bg=rulecol,fg=white}
+	\setbeamercolor{section in head/foot}{bg=black!90,fg=white}
+	\setbeamercolor{subsection in head/foot}{bg=rulecol!90,fg=white}
+	\setbeamercolor{boiterouge}{bg=red!60,fg=black}
+	\setbeamercolor{boiterougeB}{bg=red,fg=black}
+	\setbeamercolor{boiteblanche}{bg=white,fg=black}
+	\setbeamercolor{boiteverte}{bg=green,fg=black}
+	\setbeamercolor{boiteblue}{bg=rulecol,fg=white}
+	
+	\setbeamerfont*{frametitle}{size=\normalsize}
+	
+	
+  \setbeamertemplate{navigation symbols}{}
+	\setbeamertemplate{itemize item}[square]
+	\setbeamertemplate{enumerate item}[ball]
+	\setbeamertemplate{itemize subitem}[triangle]
+	\setbeamertemplate{itemize subsubitem}[circle]
+	\logo{\includegraphics[height=5mm]{images/logouniv.png}}
+	\setbeamertemplate{footline}{
+		\leavevmode%
+		\hbox{\hspace*{-0.06cm}
+		
+		\begin{beamercolorbox}[wd=.265\paperwidth,ht=2.25ex,dp=1ex,left]{author in foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor%~~(\insertshortinstitute)
+		\end{beamercolorbox}%
+		
+		\begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex,center]{title in foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		
+		\begin{beamercolorbox}[wd=.135\paperwidth,ht=2.25ex,dp=1ex,right]{section in foot}%
+			\usebeamerfont{logo}\textcolor[rgb]{1,0.41,0.13}{\insertshortdate{}}\hspace*{0.4em}
+			\insertframenumber{} / \inserttotalframenumber
+		\end{beamercolorbox}}%
+		
+		\vskip0pt%
+	}
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm}
+
+\title[Secure Distributed Cluster Formation in Wireless Sensor Networks]{}
+
+\author[$\;\;$ TCHIO AMOUGOU Styves Daudet]{}
+
+\date[Janvier 2021]{janvier 2021}
+
+%\subject{Mémoire de Master 2}
+\begin{document}
+\begin{frame}
+\transfade
+	\vspace{-0.3cm}
+	\begin{figure}
+		\begin{center}
+		\includegraphics[width=11cm,height=1.2cm]{images/enteteUds.PNG}
+		\end{center}
+	\end{figure}
+	
+	\begin{center}
+	\tiny{\textsc{\textcolor{black}{DSCHANG SCHOOL OF SCIENCES AND TECHNOLOGY}}}\\
+		\tiny{Unité de Recherche en Informatique Fondamentale, Ingénierie et  Application (URIFIA)}
+	\end{center}
+	\vspace{0.05cm}
+\fcolorbox{boxtitre}{boxtitre}{\parbox{1\linewidth}{
+
+\vspace{-0.3cm}
+\begin{center}
+
+\vspace{0.05cm}
+ \textcolor{bgcol}{Secure Distributed Cluster Formation in Wireless Sensor Networks}
+
+%\vspace{0.1cm}
+\end{center}
+
+\vspace{-0.1cm}
+}}
+\begin{center}
+\fcolorbox{bgcol}{bgcol}{
+\parbox{1\linewidth}{
+\begin{center}
+\vspace{-0.5cm}
+\footnotesize Présenté par :\\ \textbf{\textcolor{boxtitre}{ TCHIO AMOUGOU Styves daudet}} \\
+\scriptsize{\textit{Matricule : CM-UDS-14SCI0251}}\\
+ \tiny{\textit{Licencié en Informatique Fondamentale}}\\
+ \vspace{0.3cm}
+				\scriptsize{\textit{Sous la direction de }}\\
+				\scriptsize{\textbf{Dr BOMGNI ALAIN Bertand} }\\
+								\tiny{(\textit{Chargé de Cours, Université de Dschang})}\\
+				\end{center}
+}}
+\end{center}
+\end{frame}
+
+\begin{frame}{\scriptsize Sommaire}
+\transwipe
+\scriptsize
+  \tableofcontents
+\end{frame}
+
+\section{Introduction}
+	\subsection{Contexte}
+	\setbeamercovered{invisible}
+	\begin{frame}{Context}
+	\transwipe
+	
+	\vspace{-0.25cm}
+	\begin{block}
+		\scriptsize Dans les réseaux de capteur les attaques malicieux sont un problème réel Et plusieurs protocoles proposés ne résistent pas au attaque malicieuse dans des environnement hostile
+	\end{block}
+	\end{frame}
+			
+
+			
+	\subsection{Problématique générale}		
+			\begin{frame}{Problématique générale}
+	\transglitter
+				\begin{alertblock}{ Problématique générale}
+					\large détection des noeuds  malicieux dans les réseaux de capteur.
+				\end{alertblock}
+				\begin{figure}%
+				\centering
+				\includegraphics[width=2cm, height=3cm]{images/bonhomme_question.JPG}%
+				\end{figure}
+			\end{frame}	
+						
+\section{ secure distributed cluster formation in wireless sensor networks}	
+			\begin{frame}{}
+				\transfade
+				\begin{center}
+					\vspace{-0.2cm}
+				\huge\textbf{ \textsc{ secure distributed cluster formation in wireless sensor networks}}
+				\end{center}
+			\end{frame}
+			\subsection{Propriétés}
+			\begin{frame}{propriétés}
+				\transwipe
+				\vspace{-0.21cm}
+					\begin{block}{\scriptsize Our secure distributed cluster formation protocol has the following properties even if there are external and insider attackers}
+						\begin{itemize}
+							\item[\ding{43}]The protocol is fully distributed. Each node computes its clique only using the information from its 1-hop neighbors;
+							\item[\ding{43}] The protocol is guaranteed to terminate. Participating nodes that do not follow the protocol specification (e.g., send conflicting messages) will be identified and removed from all cliques; 
+						\item[\ding{43}] After the protocol terminates, all normal nodes are divided into mutually disjoint cliques. All normal nodes are guaranteed to have consistent views on their clique memberships even in hostile environment; 
+						\end{itemize}
+					\end{block}
+					\centering
+						\includegraphics[width=2cm, height=3cm]{images/bonhomme_idea.JPG}
+			\end{frame}
+			\begin{frame}{propriétés}
+				\transwipe
+					\vspace{-0.21cm}
+						\begin{block}{\scriptsize Our secure distributed cluster formation protocol has the following properties even if there are external and insider attackers}
+							\begin{itemize}
+								\item[\ding{43}]normal nodes are divided into mutually disjoint cliques;
+								\item[\ding{43}] all the normal nodes in each clique agree on the same clique memberships;
+								\item[\ding{43}]while external attackers can be prevented from participating in the cluster formation process, inside attackers that do not follow the protocol semantics can be identified and removed from the network;
+								\item[\ding{43}]the communication overhead is moderate;
+							\end{itemize}
+						\end{block}
+						\centering
+						\includegraphics[width=2cm, height=3cm]{images/bonhomme_idea.JPG}
+			\end{frame}
+			\subsection{Assertion}
+				\begin{frame}{Assertion}
+					\transwipe
+					\vspace{-0.21cm}
+					\begin{block}{}
+							\begin{itemize}
+								\item[\ding{43}] We assume each node knows its 1-hop neighbors
+								\item[\ding{43}] We assume the sensor nodes can perform public key based digital signature operations.
+
+								\item[\ding{43}] We assume the clocks of the normal nodes are loosely synchronized, as required by TESLA.
+
+								\item[\ding{43}]We also assume the public keys used by the sensor nodes are properly authenticated
+ 
+							\end{itemize}
+					
+					\end{block}
+				\end{frame}
+			\subsection{Protocol Specification}
+				\begin{frame}{Protocol Specification}
+					\transwipe
+					\vspace{-0.21cm}
+					\begin{block}{The protocol is summarized below:}
+							\begin{itemize}
+								\item[\ding{43}] Step 1: Each node exchanges its neighbor lists with its neighbors, and computes its local maximum clique.
+								\item[\ding{43}] Step 2: Each node exchanges its local maximum clique with its neighbors, and updates its maximum clique according to its neighbor nodes? local maximum cliques.
+
+								\item[\ding{43}] Step 3: Each node exchanges the updated clique with its neighbors, and derives its final clique.
+
+							\end{itemize}
+					\end{block}
+				\end{frame}
+				\begin{frame}{Protocol Specification}
+					\transwipe
+					\vspace{-0.21cm}
+					\begin{block}{The protocol is summarized below:}
+							\begin{itemize}
+								\item[\ding{43}]Step 4: Each node exchanges the final clique with its neighbors.
+								
+									\begin{itemize}
+										\item If no clique inconsistency is detected, it terminates successfully.
+										\item Otherwise, it enters Step 5.
+									\end{itemize}
+								
+								 
+								\item[\ding{43}]Step 5: Each node performs conformity checking. 
+									\begin{itemize}
+										\item If it identifies malicious (neighbor) nodes, it removes them from the network, and restarts the protocol from Step 1.
+										\item Otherwise, it enforces the clique agreement and terminates.
+									\end{itemize}									 
+
+							\end{itemize}
+					\end{block}
+				\end{frame}
+				\subsection{Limite}
+					\begin{frame}{Limite}
+						\transwipe
+						\vspace{-0.21cm}
+						\begin{block}{}
+							\begin{itemize}
+								\item[\ding{43}] Currently, our protocol is suitable for static sensor networks, in which nodes do not move frequently
+							\end{itemize}
+						\end{block}
+					\end{frame}
+			
+	
+		
+		\begin{frame}
+\transdissolve
+	\vspace{1cm}
+	\begin{center}
+	\huge \textbf{\textsc{Merci pour votre aimable attention}}
+	\end{center}
+\end{frame}
+	
+%\bibliographystyle{apacite} 
+%\bibliography{References/references}
+
+%\subject{Mémoire de Master 2}
+\begin{frame}
+\transfade
+	\vspace{-0.3cm}
+	\begin{figure}
+		\begin{center}
+		\includegraphics[width=11cm,height=1.2cm]{images/enteteUds.PNG}
+		\end{center}
+	\end{figure}
+	
+	\begin{center}
+	\tiny{\textsc{\textcolor{black}{DSCHANG SCHOOL OF SCIENCES AND TECHNOLOGY}}}\\
+		\tiny{Unité de Recherche en Informatique Fondamentale, Ingénierie et  Application (URIFIA)}
+	\end{center}
+	\vspace{0.05cm}
+\fcolorbox{boxtitre}{boxtitre}{\parbox{1\linewidth}{
+
+\vspace{-0.3cm}
+\begin{center}
+
+\vspace{0.05cm}
+ \textcolor{bgcol}{Secure Distributed Cluster Formation in Wireless Sensor Networks}
+
+%\vspace{0.1cm}
+\end{center}
+
+\vspace{-0.1cm}
+}}
+\begin{center}
+\fcolorbox{bgcol}{bgcol}{
+\parbox{1\linewidth}{
+\begin{center}
+\vspace{-0.5cm}
+\footnotesize Présenté par :\\ \textbf{\textcolor{boxtitre}{ TCHIO AMOUGOU Styves daudet}} \\
+\scriptsize{\textit{Matricule : CM-UDS-14SCI0251}}\\
+ \tiny{\textit{Licencié en Informatique Fondamentale}}\\
+ \vspace{0.3cm}
+				\scriptsize{\textit{Sous la direction de }}\\
+				\scriptsize{\textbf{Dr BOMGNI ALAIN Bertand} }\\
+								\tiny{(\textit{Chargé de Cours, Université de Dschang})}\\
+				\end{center}
+}}
+\end{center}
+\end{frame}
+\end{document}
