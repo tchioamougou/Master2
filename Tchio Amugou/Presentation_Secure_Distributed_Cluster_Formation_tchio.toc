@@ -1,0 +1,9 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Contexte}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Probl\'ematique g\'en\'erale}{6}{0}{1}
+\beamer@sectionintoc {2}{ secure distributed cluster formation in wireless sensor networks}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Propri\'et\'es}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Hypoth\`eses }{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Sp\'ecification du protocole}{12}{0}{2}
+\beamer@subsectionintoc {2}{4}{Limite}{14}{0}{2}
