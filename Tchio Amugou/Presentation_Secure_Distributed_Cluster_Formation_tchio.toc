@@ -2,8 +2,11 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Contexte}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Probl\'ematique g\'en\'erale}{6}{0}{1}
-\beamer@sectionintoc {2}{ secure distributed cluster formation in wireless sensor networks}{7}{0}{2}
-\beamer@subsectionintoc {2}{1}{Propri\'et\'es}{8}{0}{2}
-\beamer@subsectionintoc {2}{2}{Hypoth\`eses }{11}{0}{2}
-\beamer@subsectionintoc {2}{3}{Sp\'ecification du protocole}{12}{0}{2}
-\beamer@subsectionintoc {2}{4}{Limite}{14}{0}{2}
+\beamer@subsectionintoc {1}{3}{Objectifs}{7}{0}{1}
+\beamer@sectionintoc {2}{ Secure distributed cluster formation in wireless sensor networks}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Definitions}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Propri\'et\'es}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Hypoth\`eses }{13}{0}{2}
+\beamer@subsectionintoc {2}{4}{Objectif}{14}{0}{2}
+\beamer@subsectionintoc {2}{5}{Sp\'ecification du protocole}{15}{0}{2}
+\beamer@subsectionintoc {2}{6}{Limite}{18}{0}{2}

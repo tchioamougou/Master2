@@ -144,69 +144,78 @@
 \section{Introduction}
 	\subsection{Contexte}
 	\setbeamercovered{invisible}
-	\begin{frame}{Context}
+	\begin{frame}{Contexte}
 	\transwipe
 	
 	\vspace{-0.25cm}
 	\begin{block}
-		\scriptsize Dans les réseaux de capteurs les attaques malicieuses sont un problème réel, plusieurs protocoles proposés ne résistent pas aux attaques malicieuses dans des environnements hostiles.
-		
-	 En effet,Un noeud malicieux peut opérer sur deux niveaux:
-							\begin{itemize}
-								\item Les données échangées entre les noeuds
-								\item La topologie du réseau créée par le protocole
-							\end{itemize}
+		\scriptsize Dans les réseaux de capteurs sans fil, le regroupement des n?uds de capteurs en
+Les petits groupes sont une technique efficace pour atteindre l'extensibilité,
+l'auto-organisation, l'économie d'énergie, l'accès aux canaux, le routage, etc.
+
+protocoles de formation de clusters peuvent être regroupé en deux grandes catégories:
 
 	\end{block}
 	\end{frame}
 	
-	\begin{frame}{Contexte}
-		\transwipe
-		\vspace{-0.25cm}
-		\begin{block}{Exemple D'attaque Active:}
-			\begin{itemize}
-				\item Attaque de "jamming" \\ Vu la sensibilité du média sans fil au bruit, un noeud peut provoquer un déni de service en émettant des signaux é une certaine fréquence. Cette attaque peut être très dangereuse car elle peut être menée par une personne non authentifiée et étrangère au réseau.
-				
-			\end{itemize}
-		\end{block}
-		\begin{figure}
-		\centering
-		\includegraphics[width=10cm,height=4cm]{images/jamming.PNG}
-		
-	\end{figure}
-	\end{frame}
+	\begin{frame}{Contexte }
+					\transwipe
+					\vspace{-0.21cm}
+					\begin{block}{}
+							\begin{itemize}
+								\item[\ding{43}] Lead-First:
+								\begin{itemize}
+										\item Dans l'approche lead-first, les clusters head sont d'abord élus selon certaines métriques (batteries restantes, degré de connectivité). 
+										\item Ensuite, les clusters heads s'accordent sur comment assigner les noeuds à différents clusters.
+									\end{itemize}
+								\item[\ding{43}]Cluster-first
+ \begin{itemize}
+										\item Dans cette approche, tous les n?uds sont d'abord regroupés en clusters,
+										\item  Et ensuite chaque cluster sélectionné son cluster head sur la coordination de tous les n?uds du cluster.
+									\end{itemize}
+							\end{itemize}
+					
+					\end{block}
+				\end{frame}
 	
 	\begin{frame}{Contexte}
-		\transwipe
-		\vspace{-0.25cm}
-		\begin{block}{Exemple D'attaque Active:}
-			\begin{itemize}
-				\item ASink hole \\ Dans une attaque sinkhole, le noeud essaye d'attirer vers lui le plus de chemins possibles permettant le contrôle sur la plupart des données circulant dans le réseau. Pour ce faire, l'attaquant doit apparaître aux autres comme étant très attractif, en présentant des routes optimales.
-				
-			\end{itemize}
-		\end{block}
-		\begin{figure}
-		\centering
-		\includegraphics[width=10cm,height=3cm]{images/sinkhole.PNG}
-		
-	\end{figure}
+	\transwipe
+	
+	\vspace{-0.25cm}
+	\begin{block}
+		\scriptsize Un certain nombre de protocoles de formation de clusters ont été proposés récemment mais  
+		Cependant, la plupart des protocoles existants supposent des environnements sans risque et sont vulnérables aux attaques de n?uds malveillants.
+
+	\end{block}
 	\end{frame}
-			
+		
+	
 
 			
 	\subsection{Problématique générale}		
-			\begin{frame}{Problématique générale}
+			\begin{frame}{Problématique}
 	\transglitter
-				\begin{alertblock}{ Problématique générale}
-					\large Détection des noeuds malicieux dans les réseaux de capteurs.
+				\begin{alertblock}{ Problématique}
+					\large Comment regrouper les n?uds d'un réseau de capteurs sans field dans different cluster tout en assurant la sécurité du réseau face des attaques malveillantes même dans un environnement hostile.
 				\end{alertblock}
 				\begin{figure}%
 				\centering
 				\includegraphics[width=2cm, height=3cm]{images/bonhomme_question.JPG}%
 				\end{figure}
 			\end{frame}	
+			
+			
+			
+			\subsection{Objectifs}		
+			\begin{frame}{Objectifs}
+	\transglitter
+				\begin{alertblock}{ Objectifs}
+					\large Comment regrouper les n?uds d'un réseau de capteurs sans field dans different cluster tout en assurant la sécurité du réseau face des attaques malveillantes même dans un environnement hostile.
+				\end{alertblock}
+				
+			\end{frame}	
 						
-\section{ secure distributed cluster formation in wireless sensor networks}	
+\section{ Secure distributed cluster formation in wireless sensor networks}	
 			\begin{frame}{}
 				\transfade
 				\begin{center}
@@ -214,6 +223,27 @@
 				\huge\textbf{ \textsc{ secure distributed cluster formation in wireless sensor networks}}
 				\end{center}
 			\end{frame}
+			
+			
+			\subsection{Definitions}
+			\begin{frame}{Definitions}
+				\transwipe
+				\vspace{-0.21cm}
+					\begin{block}{}
+						\begin{itemize}
+							\item[\ding{43}] Le protocole propose ici est: un protocole sécurisé de formation de cluster distribuées pour organiser les réseaux de capteurs en cliques mutuellement disjointes
+							\item[\ding{43}]Clique: est cluster dans lequel chaque noeud peut communiquer avec tous ses voisins à un saut.
+						\end{itemize}
+					\end{block}
+					
+			\end{frame}
+			
+			
+			
+			
+			
+			
+			
 			\subsection{Propriétés}
 			\begin{frame}{Propriétés}
 				\transwipe
@@ -269,7 +299,35 @@
 					
 					\end{block}
 				\end{frame}
+				
+				\subsection{Objectif}
+				\begin{frame}{Objectif}
+					\transwipe
+					\vspace{-0.21cm}
+					\begin{block}{}
+							L'objectif premier de ce protocole est de diviser tous les noeuds du réseau en des cliques mutuelles disjoints de telle sorte que chaque noeud dans un même clique puisse communiquer directement avec chacun de ses voisins
+					\end{block}
+				\end{frame}
+				
+				
+				
 			\subsection{Spécification du protocole}
+			
+			\begin{frame}{Spécification du protocole}
+					\transwipe
+					\vspace{-0.21cm}
+					On définit par:
+					\begin{itemize}
+								\item \vartriangleright jjkj
+								\item
+
+								\item
+								\item
+ 
+							\end{itemize}
+					
+				\end{frame}			
+			
 				\begin{frame}{Spécification du protocole}
 					\transwipe
 					\vspace{-0.21cm}
